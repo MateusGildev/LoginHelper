@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN HELPER</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4f1522b739.js" crossorigin="anonymous" async></script>
+</head>
+<body>
+    <header>
+        <h1>Login-Helper</h1>
+    </header>
+
+    <main>
+        <form>
+            <section class="input-container">
+                <input type="email" placeholder="example@hotmail.com">
+                
+                <div class="password-container">
+                    <input type="password" placeholder="password" id="field-password">
+                    <i class="fas fa-eye" id="eye" onClick="showPassword()"></i>
+                    <i class="fas fa-eye-slash" id="eye-slash"  onClick="showPassword()"></i>
+                </div>
+            </section>
+
+            <section class="password-infos">
+                <div>
+                    <input type="checkbox">
+                    <span>Lembrar senha</span>
+                </div>
+                <a href="#">Esqueceu sua senha?</a>
+            </section>
+
+            <button id="btn-login">Login</button>
+
+            <section class="links-container">
+                <span>Ou entre com...</span>
+
+                <aside>
+                    <a href="#"><i class="fab fa-google-plus-square google"></i></a>
+                    <a href="#"><i class="fab fa-facebook-square facebook"></i></a>
+                    <a href="#"><i class="fab fa-linkedin linkedin"></i></a>
+                </aside>
+
+            </section>
+
+            <footer>
+                <hr>
+                <span>Ainda não tem uma conta? <a href="#">Cadastre-se</a></span>
+            </footer>
+        </form>
+    </main>
+</body>
+</html>
